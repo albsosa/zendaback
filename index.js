@@ -3,7 +3,7 @@ const express = require('express');
 const cors = require('cors');
 const Openpay = require('openpay');
 const openpay = new Openpay('mzzqfji4nm9zkiwtreck', 'sk_6f4732d63b6945c6a5bdcc4c4f1b062b');
-// Inicio de servidor
+// Inicio de servidor 
 var app = express();
 //const server = http.createServer(app);
 // Configuración de la app
