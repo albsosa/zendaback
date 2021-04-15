@@ -58,5 +58,5 @@ app.get('/api/users', cors(), async (req, res) => {
 //server.listen(PORT, () => console.log(`app corriendo en el puerto ${PORT}`));
 const PORT = process.env.PORT || 4000;
 app.listen(PORT, function(){
-    console.log("servidor OK");
+    console.log("servidor OK, en el puerto ${PORT}");
 })
